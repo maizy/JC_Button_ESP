@@ -3,8 +3,7 @@
 // Copyright (C) 2018 by Jack Christensen and licensed under
 // GNU GPL v3.0, https://www.gnu.org/licenses/gpl.html
 
-#ifndef JC_BUTTON_H_INCLUDED
-#define JC_BUTTON_H_INCLUDED
+#pragma once
 
 #include <Arduino.h>
 
@@ -61,13 +60,12 @@ class Button
 
     private:
         uint8_t m_pin;          // arduino pin number connected to button
-        uint32_t m_dbTime;      // debounce time (ms)
+        unsigned long m_dbTime; // debounce time (ms)
         bool m_puEnable;        // internal pullup resistor enabled
         bool m_invert;          // if true, interpret logic low as pressed, else interpret logic high as pressed
         bool m_state;           // current button state, true=pressed
         bool m_lastState;       // previous button state
         bool m_changed;         // state changed since last read
-        uint32_t m_time;        // time of current state (ms from millis)
-        uint32_t m_lastChange;  // time of last state change (ms)
+        unsigned long m_time;   // time of current state (ms from millis)
+        unsigned long m_lastChange;  // time of last state change (ms)
 };
-#endif

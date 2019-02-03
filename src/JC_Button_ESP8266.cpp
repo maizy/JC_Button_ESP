@@ -3,7 +3,8 @@
 // Copyright (C) 2018 by Jack Christensen and licensed under
 // GNU GPL v3.0, https://www.gnu.org/licenses/gpl.html
 
-#include "JC_Button.h"
+#include <Arduino.h>
+#include "JC_Button_ESP8266.h"
 
 /*----------------------------------------------------------------------*
 / initialize a Button object and the pin it's connected to.             *
