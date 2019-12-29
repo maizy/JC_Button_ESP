@@ -10,7 +10,7 @@
 // blink rapidly. Once in rapid blink mode, another long press goes
 // back to on/off mode.
 
-#include <JC_Button_ESP8266.h>  // https://github.com/maizy/JC_Button
+#include <JC_Button_ESP.h>  // https://github.com/maizy/JC_Button
 
 // pin assignments
 const byte

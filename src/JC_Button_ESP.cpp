@@ -4,7 +4,7 @@
 // GNU GPL v3.0, https://www.gnu.org/licenses/gpl.html
 
 #include <Arduino.h>
-#include "JC_Button_ESP8266.h"
+#include "JC_Button_ESP.h"
 
 /*----------------------------------------------------------------------*
 / initialize a Button object and the pin it's connected to.             *

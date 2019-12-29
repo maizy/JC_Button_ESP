@@ -8,7 +8,7 @@
 // or decrement by one, long presses repeat at a specified rate.
 // Every time the number changes, it is written to the serial monitor.
 
-#include <JC_Button_ESP8266.h>  // https://github.com/maizy/JC_Button
+#include <JC_Button_ESP.h>  // https://github.com/maizy/JC_Button
 
 // pin assignments
 const byte
