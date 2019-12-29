@@ -1,4 +1,4 @@
-# Arduino Button Library - esp8266 version
+# Arduino Button Library - ESP version
 
 Fork of [JChristensen/JC_Button](https://github.com/JChristensen/JC_Button)
 for espressif8266/espressif32 platforms.
